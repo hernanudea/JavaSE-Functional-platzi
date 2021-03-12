@@ -14,7 +14,7 @@ public class MyOptionals {
             // ...
         }
 
-        optionalNames.isPresent(namesValue -> namesValue.forEach(System.out::println));
+   //     optionalNames.isPresent(namesValue -> namesValue.forEach(System.out::println));
 //        optionalNames.map()
 
         Optional<String> valuablePlayer = optionalValueblePlayer();
